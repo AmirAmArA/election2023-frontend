@@ -98,7 +98,7 @@ const HomePage = () => {
           className="flex justify-center items-center"
         >
           <p className="text-muted-foreground text-center" dir="rtl">
-            اذا لم تجد السلطة المحلية في بلدك يمكنك طلب اضافتها في الرابط ادناه
+            اذا لم تجد السلطة المحلية في بلدك يمكنك طلب اضافتها بالضغط على هذه الجملة
           </p>
         </Link>
         {/* Button */}
