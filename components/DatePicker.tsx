@@ -34,9 +34,9 @@ export function DatePicker({ city }: { city: string }) {
     return data.map((item: any, index) => {
       return (
         <TableRow key={index}>
-          <TableCell>{item?.date?.toString()?.substring(0, 16)}</TableCell>
-          <TableCell>{item?.option}</TableCell>
-          <TableCell>{item?.votes}</TableCell>
+          <TableCell>{item?.datedata?.toString()?.substring(0, 16)}</TableCell>
+          <TableCell>{item?.candidatesname}</TableCell>
+          <TableCell>{item?.candidatesvotes}</TableCell>
         </TableRow>
       );
     });
