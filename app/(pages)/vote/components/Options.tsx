@@ -33,7 +33,7 @@ const Options = (props: Props) => {
         return toast({
           title: "Something went wrong while fetching",
           variant: "destructive",
-          duration: 2000,
+          duration: 6000,
         });
       }
 
@@ -62,7 +62,7 @@ const Options = (props: Props) => {
         });
       }
     } catch (error: any) {
-      toast({ title: error.message, variant: "destructive", duration: 2000 });
+      toast({ title: error.message, variant: "destructive", duration: 6000 });
     } finally {
       setIsLoading(false);
     }
