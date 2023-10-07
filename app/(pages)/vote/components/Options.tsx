@@ -50,9 +50,15 @@ const Options = (props: Props) => {
         );
 
         toast({
-          title: "Vote Successful",
+          title: "لقد تم التصويت بنجاح, أخبر اصدقائك ليصوتوا لمرشحكم!",
           duration: 2000,
           className: "bg-green-500 text-white",
+        });
+      } else if (API.message === "the user agent already voted") {
+            toast({
+          title: "لقد قمت بالتصويت من قبل, أخبر اصدقائك ليصوتوا لمرشحكم!",
+          duration: 2000,
+          className: "bg-red-500 text-white",
         });
       }
     } catch (error: any) {
