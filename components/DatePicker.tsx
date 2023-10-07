@@ -45,7 +45,10 @@ export function DatePicker({ city }: { city: string }) {
   const handleDateChange = (e: any) => {
     setDate(e);
     setIsLoading(true);
-    fetchByDateAndCity(e.toISOString().split("T")[0], city)
+
+    const localDate = e.toLocaleDateString('en-CA', { year: 'numeric', month: '2-digit', day: '2-digit' }).replace(/\//g, '-');
+
+    fetchByDateAndCity(localDate, city)
       .then((res) => {
         setData(res);
       })
