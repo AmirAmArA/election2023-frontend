@@ -59,7 +59,7 @@ const HomePage = () => {
   }
 
   return (
-    <div className={`flex justify-center items-center mt-14`}>
+    <div className={`flex justify-center items-center`}>
       <Card
         className={cn(
           `p-12 flex flex-col space-y-10  shadow-lg`,
