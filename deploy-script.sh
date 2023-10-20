@@ -1,4 +1,5 @@
 #!/bin/bash
 git pull origin main
 npm i
-pm2 restart my-next-app
+npm run build
+pm2 restart next-app
