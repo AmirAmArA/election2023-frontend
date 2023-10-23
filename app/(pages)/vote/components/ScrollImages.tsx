@@ -45,8 +45,8 @@ const ScrollImages = (props: Props) => {
               alt="image"
               style={{
                 width: "100%",
-                height: "250px",
-                aspectRatio: "18/5", // Maintain aspect ratio while covering width
+                aspectRatio: "18/5", 
+                objectFit: "cover"// Maintain aspect ratio while covering width
               }}
              
             />
