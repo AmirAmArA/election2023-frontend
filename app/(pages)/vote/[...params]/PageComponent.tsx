@@ -64,7 +64,7 @@ const PageComponent = (props: Props) => {
           >
             <Button
               className={cn(
-                "flex-[0.2]",
+                "flex-[0.5]",
                 theme == "light" &&
                   "bg-[#F1F0E8] text-black hover:opacity-20 hover:bg-[#F1F0E8] transition hover:text-black"
               )}

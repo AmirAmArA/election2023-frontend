@@ -36,7 +36,7 @@ const ScrollImages = (props: Props) => {
   };
 
   return (
-    <div className="rounded-md">
+    <div className="mt-5 mb-5">
       <Slider {...settings}>
         {filteredResults?.map((_: any, index: number) => (
           <div key={index}>
