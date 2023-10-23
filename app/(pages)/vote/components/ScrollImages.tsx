@@ -48,7 +48,7 @@ const ScrollImages = (props: Props) => {
                 height: "250px",
                 aspectRatio: "18/5", // Maintain aspect ratio while covering width
               }}
-              className="transition-all aspect-square hover:scale-105 mx-6"
+             
             />
           </div>
         ))}
