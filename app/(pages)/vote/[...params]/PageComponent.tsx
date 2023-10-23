@@ -45,10 +45,10 @@ const PageComponent = (props: Props) => {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center items-center mt-14 max-w-[100%]">
+      <div className="flex justify-center items-center max-w-[100%]">
         <Card
           className={cn(
-            "p-12 flex flex-col space-y-20 min-h-[1300px] lg:w-[60%] w-full  shadow-lg ",
+            "p-12 flex flex-col space-y-20 min-h-[1300px] lg:w-[80%] w-full  shadow-lg ",
             theme == "light" && "bg-[#FFF3DA]"
           )}
         >
