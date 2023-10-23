@@ -69,7 +69,7 @@ const HomePage = () => {
         {/* Main content */}
         <p className={"text-center"} dir="rtl">
           {" "}
-          استطلاع رأي انتخابات السلطات المحلية 2023
+          استطلاع رأي يومي لانتخابات السلطات المحلية 2023
         </p>
         {/* Dropdown */}
         <Select onValueChange={(e) => setSelectedValue(e)}>
